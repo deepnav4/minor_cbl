@@ -1,0 +1,12 @@
+node_modules
+.turbo
+dist
+.next
+.env*
+!.env.example
+.DS_Store
+# LaTeX build artifacts
+utils/*.aux
+utils/*.log
+utils/*.out
+utils/*.toc

@@ -1,0 +1,14 @@
+{
+  "name": "@minor/pdf-client",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "exports": { ".": "./src/index.ts" },
+  "scripts": {
+    "typecheck": "tsc -p tsconfig.json"
+  },
+  "devDependencies": {
+    "@minor/config": "*",
+    "typescript": "^5.8.0"
+  }
+}
